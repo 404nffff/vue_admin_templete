@@ -3,10 +3,12 @@ module.exports = {
   env: {
     node: true
   },
-  extends: [
-    'plugin:vue/essential',
-    '@vue/standard'
-  ],
+  // extends: [
+  //   'plugin:vue/essential',
+  //   '@vue/standard'
+  // ],
+   // extends: ["plugin:vue/essential", "@vue/prettier"],//这里面的@vue/prettier去掉
+  extends: ["plugin:vue/essential"],
   parserOptions: {
     parser: 'babel-eslint'
   },
